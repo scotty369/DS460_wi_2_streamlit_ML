@@ -18,6 +18,8 @@ st.header("📜 How to Get *Streamlit* Up and Running")
 st.write("1. Create a Python file (e.g., `app.py`) and import Streamlit.")
 st.write("2. Use `st.title()` to set the title of your app.")
 st.write("3. Add interactive components using functions like `st.write()`, `st.header()`, etc.")
+st.write("4. Add tabs to organize content using `st.tabs()` and `st.tab()`.")
+st.write("5. Run the app using `streamlit run app.py` in your terminal.")
 
 st.header("🐳 Steps to Run the App in *Docker* with Docker Compose")
 st.write("1. **Create a Dockerfile** in the same directory as your `app.py` file. Make sure to choose a unique port other than what I have. 8000, 8001, etc.")
